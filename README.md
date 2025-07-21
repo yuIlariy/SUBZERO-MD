@@ -9,7 +9,7 @@
 </a>
 </p>
 <p align="center">
-<a href="https://github.com/mrfr8nk"><img title="Author" src="https://img.shields.io/badge/SUBZERO-MD-darkgreen?style=for-the-badge&logo=whatsapp"></a>
+<a href="https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D"><img title="Author" src="https://img.shields.io/badge/SUBZERO-MD-darkgreen?style=for-the-badge&logo=whatsapp"></a>
 <p/>
 
 <p align="center">
