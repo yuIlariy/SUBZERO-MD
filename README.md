@@ -1,7 +1,7 @@
 <h1 align="center"> 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃</h1>
 
 <p align="center">
-  <a href="https://github.com/mrfr8nk">
+  <a href="https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D">
     <img alt=" docs" height="350" src="https://files.catbox.moe/rzw7ng.jpg">
   </a>
 </p>
