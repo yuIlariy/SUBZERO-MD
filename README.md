@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/mrfrankofcc/SUBZERO-MD">
-    <img alt="SUBZERO-MD docs" height="350" src="https://files.catbox.moe/rzw7ng.jpg">
+    <img alt="SUBZERO-MD docs" height="350" src="https://files.catbox.moe/kuyhlf.jpg">
   </a>
 </p>
     
