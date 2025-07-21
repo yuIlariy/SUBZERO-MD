@@ -54,5 +54,6 @@
   <img src="https://github.com/mrfrankofcc/SUBZERO-MD/blob/main/assets/techwave.gif?raw=true" width="100%"/>
 </div>
 <center>
+  
 > `POWERED BY MR FRANK OFC 🇿🇼`
 </center>
