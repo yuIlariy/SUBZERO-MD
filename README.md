@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/mrfr8nk">
-    <img alt=" docs" height="350" src="https://files.catbox.moe/xmldwy.jpg">
+    <img alt=" docs" height="350" src="https://files.catbox.moe/rzw7ng.jpg">
   </a>
 </p>
     
