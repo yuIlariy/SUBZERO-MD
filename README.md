@@ -30,7 +30,8 @@
     </a>
 </p>
 
-<center> 
+<center>
+  
   ## 🚀 DEPLOYMENT OPTIONS 
 </center>
 
