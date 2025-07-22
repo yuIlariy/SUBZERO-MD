@@ -30,8 +30,9 @@
     </a>
 </p>
 
-
-## 🚀 DEPLOYMENT OPTIONS
+<center> 
+  ## 🚀 DEPLOYMENT OPTIONS 
+</center>
 
 <div align="center">
   <table>
@@ -57,5 +58,4 @@
 </div>
 <center>
   
-> `POWERED BY MR FRANK OFC 🇿🇼`
-</center>
+> `POWERED BY MR FRANK OFC 🇿🇼` </center>
