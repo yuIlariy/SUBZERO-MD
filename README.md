@@ -34,7 +34,13 @@ src="https://files.catbox.moe/rzw7ng.jpg">
         <img alt="Fork Repo" src="https://img.shields.io/badge/Fork%20Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkblue"/>
     </a>
 </p>
-
+<p align="center">
+    <strong>𝗚𝗘𝗧 𝗦𝗘𝗦𝗦𝗜𝗢𝗡_𝗜𝗗 </strong>
+  <br>
+    <a href="https://subzero-auth.koyeb.app" target="_blank">
+        <img alt="Session ID" src="https://img.shields.io/badge/Fork%20Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkpurple"/>
+    </a>
+</p>
 <h2 align="center">  𝗚𝗘𝗧 𝗦𝗧𝗔𝗥𝗧𝗘𝗗
 </h2>
 
@@ -51,11 +57,11 @@ src="https://files.catbox.moe/rzw7ng.jpg">
     </tr>
     <tr>
       <td><a href="https://dashboard.render.com/web/new" target="_blank"><img src="https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white&labelColor=000000&color=00ffaa"/></a></td>
-      <td><a href="https://app.netlify.com/" target="_blank"><img src="https://img.shields.io/badge/Netlify-CC00FF?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=000000"/></a></td>
+      <td><a href="https://github.com/mrfrankofcc/SUBZERO-MD/archive/refs/heads/main.zip" target="_blank"><img src="https://img.shields.io/badge/Panel-File-CC00FF?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=000000"/></a></td>
     </tr>
   </table>
 
-  <td><a href="https://github.com/mrfrankofcc/SUBZERO-MD/archive/refs/heads/main.zip" target="_blank"><img src="https://img.shields.io/badge/Panel Zip-000000?style=for-the-badge&logo=bot-hosting&logoColor=white&labelColor=000000&color=blue"/></a></td>
+  <td><a href="https://subzeronodes.gleeze.com" target="_blank"><img src="https://img.shields.io/badge/SubzeroNodes-000000?style=for-the-badge&logo=bot-hosting&logoColor=white&labelColor=000000&color=blue"/></a></td>
 </div>
 
 <div align="center">
