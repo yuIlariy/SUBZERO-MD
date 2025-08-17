@@ -36,13 +36,34 @@ src="https://files.catbox.moe/rzw7ng.jpg">
     </a>
 </p>
 
-<p align="center">
-    <strong>TUTORIALS & DEPLOYMENTS</strong>
-    <br>
-    <a href="https://devmaxmd.netlify.app" target="_blank">
-        <img alt="WEBSITE" src="https://img.shields.io/badge/Get%20Started-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkred&color=darkred"/>
-    </a>
-</p>
+<center>
+  
+  ## 🚀 DEPLOYMENT OPTIONS 
+</center>
+
+<div align="center">
+  <table>
+    <tr>
+      <td><a href="https://dashboard.heroku.com/new?template=https://github.com/mrfrankofcc/SUBZERO-MD/tree/main" target="_blank"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&labelColor=000000&color=00ffff"/></a></td>
+      <td><a href="https://talkdrove.com/share-bot/11" target="_blank"><img src="https://img.shields.io/badge/TalkDrove-6971FF?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://app.koyeb.com/services/deploy?type=git&repository=mrfrankofcc/SUBZERO-MD" target="_blank"><img src="https://img.shields.io/badge/Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td>
+      <td><a href="https://railway.app/new" target="_blank"><img src="https://img.shields.io/badge/Railway-FF8700?style=for-the-badge&logo=railway&logoColor=white&labelColor=000000"/></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://dashboard.render.com/web/new" target="_blank"><img src="https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white&labelColor=000000&color=00ffaa"/></a></td>
+      <td><a href="https://app.netlify.com/" target="_blank"><img src="https://img.shields.io/badge/Netlify-CC00FF?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=000000"/></a></td>
+    </tr>
+  </table>
+
+  <td><a href="https://github.com/mrfrankofcc/SUBZERO-MD/archive/refs/heads/main.zip" target="_blank"><img src="https://img.shields.io/badge/Panel Zip-000000?style=for-the-badge&logo=bot-hosting&logoColor=white&labelColor=000000&color=blue"/></a></td>
+</div>
+
+<div align="center">
+  <img src="https://github.com/mrfrankofcc/SUBZERO-MD/blob/main/assets/techwave.gif?raw=true" width="100%"/>
+</div>
+<center>
 
 </details>
 
