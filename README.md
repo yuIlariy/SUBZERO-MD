@@ -1,3 +1,7 @@
+<!--SUBZERO V5 FINAL || DO NOT COPY MY README WITHOUT CREDITS-->
+
+
+
 <h1 align="center">𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃 </h1>
 
 <img align="center" height="auto"
@@ -38,7 +42,7 @@ src="https://files.catbox.moe/rzw7ng.jpg">
     <strong>𝗚𝗘𝗧 𝗦𝗘𝗦𝗦𝗜𝗢𝗡_𝗜𝗗 </strong>
   <br>
     <a href="https://subzero-auth.koyeb.app" target="_blank">
-        <img alt="Session ID" src="https://img.shields.io/badge/Fork%20Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkpurple"/>
+        <img alt="Session ID" src="https://img.shields.io/badge/SESSION%20ID-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkpurple"/>
     </a>
 </p>
 <h2 align="center">  𝗚𝗘𝗧 𝗦𝗧𝗔𝗥𝗧𝗘𝗗
