@@ -36,10 +36,9 @@ src="https://files.catbox.moe/rzw7ng.jpg">
     </a>
 </p>
 
-<center>
-  
-  ## 🚀 GET STARTED 
-</center>
+<h2 align="center">  𝗚𝗘𝗧 𝗦𝗧𝗔𝗥𝗧𝗘𝗗
+</h2>
+
 
 <div align="center">
   <table>
