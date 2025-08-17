@@ -29,7 +29,7 @@ src="https://files.catbox.moe/rzw7ng.jpg">
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 <p align="center">
-    <strong>FORK REPOSITORY</strong>
+    <strong>𝗙𝗢𝗥𝗞 𝗥𝗘𝗣𝗢𝗦𝗜𝗧𝗢𝗥𝗬 </strong>
   <br>
     <a href="https://github.com/MRFRANKOFCC/SUBZERO-MD/fork" target="_blank">
         <img alt="Fork Repo" src="https://img.shields.io/badge/Fork%20Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=darkblue&color=darkblue"/>
