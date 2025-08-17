@@ -38,7 +38,7 @@ src="https://files.catbox.moe/rzw7ng.jpg">
 
 <center>
   
-  ## 🚀 DEPLOYMENT OPTIONS 
+  ## 🚀 GET STARTED 
 </center>
 
 <div align="center">
