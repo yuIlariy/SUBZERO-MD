@@ -76,7 +76,7 @@ src="https://files.catbox.moe/rzw7ng.jpg">
 
 - This bot is made for educational purposes `only` hence `DO NOT MISUSE`.
 
-> `MR FRANK OFC 🇿🇼`
+> `POWERED BY MR FRANK OFC 🇿🇼`
 ##
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/>
