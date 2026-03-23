@@ -96,7 +96,6 @@
     "ruhend-scraper": "^9.0.8",
     "sequelize": "^6.37.6",
     "sharp": "^0.34.0",
-    "simple-git": "^3.30.0",
     "sqlite3": "^5.1.7",
     "syntax-error": "^1.4.0",
     "wa-sticker-formatter": "^4.0.6",
