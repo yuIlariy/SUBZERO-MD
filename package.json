@@ -19,7 +19,7 @@
   "scripts": {
     "prestart": "npm run build",
     "start": "node dist/index.js",
-    "build": "tsc && cp -r assets dist/",
+    "build": "tsc && (cp -r assets dist/ || true)",
     "clean": "node -e \"import('fs').then(f=>f.default.rmSync('dist',{recursive:true,force:true}))\"",
     "rebuild": "npm run clean && npm run build",
     "dev": "tsc --watch & nodemon --watch dist --ext js dist/index.js",
