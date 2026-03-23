@@ -5,7 +5,7 @@
   "keywords": ["SUBZERO-MD", "whatsapp-bot", "automation", "multi-device", "nodejs"],
   "success_url": "/",  
   "repository": "https://github.com/mrfr8nk/SUBZERO-MD",
-  "stack": "container",
+  "stack": "heroku-24",
 
   "env": {
     "SESSION_ID": {
