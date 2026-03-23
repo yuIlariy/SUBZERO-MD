@@ -1,8 +1,23 @@
-module.exports = {
-  SESSION_ID: "", // Put Session Id Here Inside "*"
-  OWNER_NUMBER: "263719647303", // Put Owner Number Here 
-  PREFIX: ".", // Default Prefix You Can Change To .,*!?+-&%#@
-  CDN: "https://mrfrankk-cdn.hf.space" // Dont change this part
+import 'dotenv/config';
+
+const settings = {
+/* ================= BOT IDENTITY ================= */
+
+botName: process.env.BOT_NAME || 'SUBZERO-MD',
+botOwner: process.env.BOT_OWNER || 'Darrell M',
+ownerNumber: process.env.OWNER_NUMBER || '263719647303',
+author: process.env.AUTHOR || 'Mr Frank OFC',
+packname: process.env.PACKNAME || 'SUBZERO-MD',
+description: process.env.DESCRIPTION || 'Multi-device WhatsApp bot',
+
+/* ================= SESSION ================= */
+
+sessionId: process.env.SESSION_ID || 'Ice~WmdYGf',
+pairingNumber: process.env.PAIRING_NUMBER || '',
+
+/* ================= CDN ================= */
+
+CDN: "https://mrfrankk-cdn.hf.space" // Dont change this part
 };
 
-// CREATED BY DARRELL MUCHERI ( MR FRANK OFC 🇿🇼 )
+export default settings;
