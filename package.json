@@ -4,38 +4,35 @@
   "description": "SubZero MD - Advanced WhatsApp Bot by Mr Frank 🇿🇼",
   "type": "module",
   "main": "dist/index.js",
+
+  "engines": {
+    "node": "20.x"
+  },
+
   "directories": {
     "assets": "assets",
     "lib": "lib",
     "data": "data",
     "plugins": "plugins"
   },
+
   "scripts": {
     "prestart": "npm run build",
     "start": "node dist/index.js",
-    "start:optimized": "node --max-old-space-size=512 --optimize-for-size --gc-interval=100 dist/index.js",
-    "start:fresh": "npm run build && node dist/reset-data.js && node dist/index.js",
     "build": "tsc && cp -r assets dist/",
-    "rebuild": "npm run clean && npm run build",
     "clean": "node -e \"import('fs').then(f=>f.default.rmSync('dist',{recursive:true,force:true}))\"",
+    "rebuild": "npm run clean && npm run build",
     "dev": "tsc --watch & nodemon --watch dist --ext js dist/index.js",
     "pm2": "pm2 start dist/index.js --name subzero-md",
     "pm2:stop": "pm2 stop subzero-md",
     "pm2:restart": "pm2 restart subzero-md",
     "pm2:logs": "pm2 logs subzero-md",
-    "pm2:monit": "pm2 monit",
     "setup": "npm run build && node dist/reset-data.js",
     "reset-data": "node dist/reset-data.js",
     "reset-session": "node -e \"import('fs').then(f=>f.default.rmSync('./session',{recursive:true,force:true})).then(()=>console.log('Session cleared!'))\"",
-    "typecheck": "tsc --noEmit",
-    "lint": "eslint . --ext .ts",
-    "test": "vitest run",
-    "test:unit": "vitest run test/unit",
-    "test:integration": "vitest run test/integration",
-    "test:watch": "vitest",
-    "test:coverage": "vitest run --coverage",
-    "audit": "npm audit --omit=dev"
+    "typecheck": "tsc --noEmit"
   },
+
   "keywords": [
     "whatsapp-bot",
     "baileys-bot",
@@ -44,10 +41,9 @@
     "mr-frank",
     "multi-device",
     "nodejs-bot",
-    "typescript-bot",
-    "sticker-bot",
-    "latex-compiler"
+    "typescript-bot"
   ],
+
   "homepage": "https://github.com/mrfr8nk/SUBZERO-MD",
   "repository": {
     "type": "git",
@@ -56,8 +52,10 @@
   "bugs": {
     "url": "https://github.com/mrfr8nk/SUBZERO-MD/issues"
   },
+
   "license": "MIT",
   "author": "Mr Frank 🇿🇼",
+
   "dependencies": {
     "@distube/ytdl-core": "^4.16.12",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
@@ -104,27 +102,19 @@
     "wa-sticker-formatter": "^4.0.6",
     "yt-search": "^2.12.1"
   },
+
   "devDependencies": {
     "@types/express": "^5.0.6",
     "@types/fluent-ffmpeg": "^2.1.27",
     "@types/fs-extra": "^11.0.4",
-    "@types/mime-types": "^2.1.4",
     "@types/node": "^20.10.5",
     "@types/pdfkit": "^0.13.8",
     "@types/qrcode": "^1.5.6",
     "@typescript-eslint/eslint-plugin": "^8.56.1",
     "@typescript-eslint/parser": "^8.56.1",
-    "@vitest/coverage-v8": "^4.0.18",
     "eslint": "^10.0.2",
-    "madge": "^8.0.0",
     "nodemon": "^3.1.14",
     "pm2": "^5.4.3",
-    "ts-unused-exports": "^11.0.1",
-    "typescript": "^5.0.0",
-    "vitest": "^4.0.18"
-  },
-  "overrides": {
-    "minimatch": "^10.2.1",
-    "yargs-parser": "^21.1.1"
+    "typescript": "^5.0.0"
   }
 }
