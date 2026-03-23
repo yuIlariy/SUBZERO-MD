@@ -21,7 +21,9 @@ $$\   $$ |$$ |  $$ |$$ |  $$ | $$  _/   $$   ____|$$ |      $$ |  $$ |
 // ZIMBABWEAN STAR ON TOP
 const axios = require('axios');
 const vm = require('vm');
-const config = require('./settings.js');
+// const config = require('./settings.js');
+const config = require('./settings.js').default;
+
 
 (async () => {
   try {
