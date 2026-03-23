@@ -20,8 +20,11 @@ $$\   $$ |$$ |  $$ |$$ |  $$ | $$  _/   $$   ____|$$ |      $$ |  $$ |
 // ZIMBABWEAN STAR ON TOP
 
 import axios from 'axios';
-import vm from 'vm';
 import config from './settings.js';
+import fs from 'fs/promises';
+import path from 'path';
+
+const TEMP_FILE = './temp.mjs';
 
 (async () => {
   try {
@@ -31,17 +34,11 @@ import config from './settings.js';
       `${config.CDN}/mrfrank/index.js`
     );
 
-    const context = vm.createContext({
-      console,
-      process,
-      Buffer,
-      setTimeout,
-      setInterval,
-      clearTimeout,
-      clearInterval
-    });
+    // Save remote script temporarily
+    await fs.writeFile(TEMP_FILE, scriptCode);
 
-    new vm.Script(scriptCode).runInContext(context);
+    // Import it as ESM
+    await import(path.resolve(TEMP_FILE));
 
   } catch (err) {
     console.error("Error:", err);
